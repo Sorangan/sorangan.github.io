@@ -167,9 +167,14 @@
 	<link rel="image_src" href="https://pp.vk.me/c626529/v626529981/333f7/wAilLfVk7Fk.jpg">
 </head>
 <body alink="#FFFFFF" vlink="#FFFFFF" link="#FFFFFF">
-<audio id="player" hidden autoplay loop >
-  <source src="music.mp3" type="audio/mpeg">
-</audio>
+
+<div id="trailer" class="is_overlay">
+<video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+<source src="music.mp4"></source>
+<source src="book.webm" type="video/webm"></source>
+</video>
+</div>
+
 <a href="#" onclick="document.getElementById('player').muted=!document.getElementById('player').muted"><i class="fa fa-volume-up"></i></a>
 <br>
 <br>
